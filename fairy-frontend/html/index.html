@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Fairy</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Food Fairy</h1>
+        <nav>
+            <a href="#donors">Donors</a>
+            <a href="#beneficiaries">Beneficiaries</a>
+            <a href="#distribution">Distribution Centers</a>
+        </nav>
+    </header>
+    <main class="app">
+        <section class="donors">
+            <div class="donor-screen">
+                <div class=donor-screen-simulations>
+                    <h2>Donors</h2>
+                    <button id="add-donor-btn">Add Donor</button>
+                    <div id="donor-list"></div>
+                </div>
+            </div>
+            <div class="donor-screen">
+                <div class="donor-screen-simulations">
+                    <h2>Beneficiaries</h2>
+                    <button id="add-beneficiary-btn">Add Beneficiary</button>
+                    <div id="beneficiary-list"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+</body>
+</html>
